@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat:wght@500&family=Sofia&display=swap');
+
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sofia', cursive;
+https://www.designwizard.com/blog/design-trends/colour-combination
+*Website produce a very nice resource of color combine
+*/
+
+.ds_header{
+	font-family: 'Merriweather', serif;
+	margin: auto;
+	width: 59.5%;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.row2_deco{
+	margin: 10px 5px;
+	padding: 10px 0px 0px 10px;
+	border-radius: 10px;
+	border: 2px solid #ffffff;
+	background-color: #00203FFF;
+	color: #ADEFD1FF;
+	text-align: center;
+}
+
+.row3_deco{
+	margin: 10px 5px;
+	padding: 10px 20px 10px 10px;
+	border-radius: 10px;
+	border: 2px solid #ffffff;
+	background-color: #00203FFF;
+	color: #ADEFD1FF;
+	padding-bottom: 30px;
+}
+
+.row3_deco button{
+	font-family: 'Merriweather', serif;
+	width: 300px;
+	border-radius: 10px;
+	padding: 10px 20px;
+	background-color:#F2EDD7FF; 
+	color: #755139FF;
+	transition: all 0.3s ease 0s;
+}
+
+.row3_deco button:hover{
+	background-color: #755139FF;
+	color: #F2EDD7FF; 
+}
+
+select{
+	border: 5px solid #ffffff;
+	border-radius: 5px;
+	width: 250px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	padding: 10px;
+}
+
+select option{
+	font-size: 25px;
+}
+
+.deco_icon{
+	list-style-type: none;
+}
+
+.deco_icon li{
+	display: inline-block;
+	padding: 0px 60px;
+}
+
+
+.ds_header2 {
+	font-family: 'Merriweather', serif;
+	color: #ffffff;
+}
+
+.card{
+	margin: 25px 100px 30px;
+	font-family: 'Merriweather', serif;
+}

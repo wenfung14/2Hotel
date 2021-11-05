@@ -1,0 +1,198 @@
+/*Google Font API*/
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merriweather:wght@900&family=Montserrat:wght@500&family=Sofia&display=swap');
+
+/*
+font-family: 'Fugaz One', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sofia', cursive;
+*/
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+	
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  padding-bottom: 5px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 20px;
+  margin-top: -50px;
+  margin-right: 28px; /*For the right pointer only*/
+  color: darkred;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-size: 30px;
+  font-weight: solid;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+h4.ds_font2{
+  font-family: 'Fugaz One', cursive;
+  font-size: 40px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 25px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=date]{
+  width: 50%;
+  padding: 25px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+input[type=number]{
+  width: 100%;
+  padding: 25px 70px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button.inner_button{
+  padding: 20px 100px;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  font-family: 'Fugaz One', cursive;
+  font-size: 29px;
+  background-color: #00539CFF;
+  color: #FFD662FF;
+  transition: all 0.3s ease 0s;
+}
+
+button.inner_button:hover{
+  background-color: #FFD662FF;
+  color:#00539CFF ;
+}
+
+table.hotelRT{
+  width: 100%;
+
+}
+
+.hotelRT2{
+  font-family: 'Fugaz One', cursive;
+  font-size: 50px;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+
+}
+
+.hotelRT td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+  text-align: center;
+}
+
+img.img_style{
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.hotelPayment{
+  padding: 30px 100px ;
+  font-family: 'Fugaz One', cursive;
+  font-size: 27px;
+  background-color: #00539CFF;
+  color: #FFD662FF;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  float: right;
+}
+
+.hotelPayment:hover{
+  background-color: #FFD662FF;
+  color:#00539CFF ;
+}
+
+.hotelRT3 td{
+  font-size: 30px;
+  font-family: 'Fugaz One', cursive;
+}
+
+.ds_h{
+  font-family: 'Merriweather', serif;
+  font-size: 50px;
+}

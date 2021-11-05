@@ -1,0 +1,13 @@
+/*Google Font API*/
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merriweather:wght@900&family=Montserrat:wght@500&family=Sofia&display=swap');
+/*
+font-family: 'Fugaz One', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sofia', cursive;
+*/
+
+.card-header, dt{
+	font-family: 'Fugaz One', cursive;
+	font-size: 20px;
+}

@@ -1,0 +1,42 @@
+What have alter in laptop , later apply in computer :-
+- Saerch Inner , Place Holder put "Full Country Name"
+- In "css_hotel_slit.css", add hover "inner_button", 
+  swap between, color and background-color 
+  "transition: all 0.3s ease 0s;"
+-   
+
+
+Can have multiple line in SQL
+
+SELECT * FROM `hotel_list` WHERE (`hotel_Price` BETWEEN 0 AND 300) OR (`hotel_Price` BETWEEN 310 AND 500)
+
+
+option 1:-
+- copy the original 
+- if there is any of filter option coming in , return filter result 
+- else return original result 
+if()
+
+
+at the homepage:-
+
+if(*anycheckbox is check , any value is inside)
+
+
+JQuery Syntax:-
+
+$(this).hide() - hides the current element.
+
+$("p").hide() - hides all <p> elements.
+
+$(".test").hide() - hides all elements with class="test".
+
+$("#test").hide() - hides the element with id="test".
+
+
+
+$(document).ready(function(){
+
+	
+
+});

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat:wght@500&display=swap');
+
+
+.serach_cont{
+	position: relative;
+}
+
+/*The dummy word display in homepage*/
+.dis_home{
+	font-family: 'Merriweather', serif;
+	font-size: 85px;
+	position: absolute;
+	color: #ffffff;
+	top: 175px;
+	right: 170px;
+	width: 1500px;
+	height: 100px;
+}
+
+/*The whole saerch container */
+.search_bar{
+	position: absolute;
+	background-color:#efc8b1 ;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: coral ;
+	top: 400px;
+	right: 280px;
+	width: 1320px;
+	height: 300px;
+
+}
+
+.saerch_bar_cust{
+	color: #8a6626;
+	font-size: 35px;
+	font-family: 'Montserrat', serif;
+	list-style-type: none;
+}
+
+.saerch_bar_cust li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.saerch_bar_cust li button{
+	font-family: 'Merriweather', serif;
+	padding: 30px 30px;
+	border-radius: 10px;
+	background-color: #346beb;
+	transition: all 0.3s ease 0s;
+
+}
+
+.saerch_bar_cust li button:hover{
+	background-color: #e0923a; /*Dark Orange*/
+	color: white;
+}
+
+input{
+	border-style: solid;
+	border-color: #333;
+	border-radius: 10px;
+
+}
+
+input[type=number] {
+  width: 30%;
+  box-sizing: border-box;
+  text-align: center;
+}
+

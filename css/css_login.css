@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merriweather:wght@900&family=Montserrat:wght@500&family=Sofia&display=swap');
+
+/*	cont_Name
+	cont_Restricted
+	cont_Quarantine
+	cont_HDocument
+	cont_HDocumentAv
+	cont_HTesting
+	cont_Mask */
+
+.img_login{
+	opacity: 0.5;
+}
+
+.log_whole_cont{
+	position: relative;
+}
+
+/*login container customization*/
+.login_item{
+	font-family: 'Merriweather', serif;
+	position: absolute;
+	border: 5px solid #ffffff;
+	border-radius: 10px;
+	background-color:#616247FF;
+	color: #DAA03DFF ;
+	top: 175px;
+	right: 450px;
+	width: 950px;
+	height: 520px;
+	padding: 30px 0px 0px 0px;
+}
+
+/*Style all item in login container*/
+input{
+	border-style: solid;
+	border-color: #333;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.login_item li,p{
+	list-style-type: none;
+	font-size: 30px;
+	margin: 20px 0px 0px 250px;
+		
+}
+
+.login_item p{
+	margin: 0px 0px 0px 180px;
+		
+}
+
+.login_item h1 ,p{
+	font-family: 'Fugaz One', cursive;
+	margin-left: 100px;
+}
+
+
+.login_item .login_list button{
+	font-family: 'Merriweather', serif;
+	border-radius: 10px;
+	padding: 10px 140px;
+	background-color: #D4B996FF;
+	transition: all 0.3s ease 0s;
+}
+
+.login_item .login_list button:hover{
+	background-color: #e0923a; /*Dark Orange*/
+	color: white;
+}
+
+.login_item  p a{
+	color: #ffffff;
+}
+
+.login_item  p a:hover{
+	color: #ADEFD1FF;
+}
+

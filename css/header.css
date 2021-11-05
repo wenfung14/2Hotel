@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*
+Some div are set in the same in width and height, but deliver wrong
+output, to prevent that happen, we set "box-sizing" in equal set 
+which unaffected by padding according to width and height set
+
+Box-sizing: https://www.w3schools.com/css/css3_box-sizing.asp;
+
+*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li > a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 29px;
+	transition: all 0.3s ease 0s;
+
+}
+
+li > a:hover{
+	background-color: #e0923a; /*Dark Orange*/
+	border-radius: 8px;
+}
+
+/*Logo Customization*/
+.hotel_logo{
+	height: 80px; 
+	padding-right: 620px;
+}
+
+/*Sign Up button Customization*/
+.sp_btn{
+	padding: 10px 37px;
+	border-radius: 8px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #34b7eb; /*light Blue*/
+	font-family: 'Montserrat', sans-serif;;
+	transition: all 0.3s ease 0s;
+}
+
+/*Background color change when point the button*/
+.sp_btn:hover {
+	color: #ffffff;
+	background-color: #1fcf7a;
+}

@@ -1,0 +1,124 @@
+Information need to be enter :-
+
+Display:-
+Travelling to Singapore _>*extract from travelling to 
+
+
+databsae 
+-id_Country	  (int)  // primary key
+-countName 	  (string)
+-countRestricted    (boolean)
+-countQuarantin	  (int)
+-countHDocument	  (string)
+-countHDocumentAV (boolean)
+-countHTesting	  (boolean)
+-countMask	  (boolean)
+
+
+
+Malaysia
+INSERT INTO info_country(countName,countRestrict,countQuarantin,countHDocument,countHDocumentAV,countHTesting,countMask)
+
+VALUES("Malaysia","0","14","Modatory health document is require","1","0","1");
+
+Singapore
+INSERT INTO info_country(countName,countRestrict,countQuarantin,countHDocument,countHDocumentAV,countHTesting,countMask)
+
+VALUES("Singapore","0","14","My Travel Pass is Require before arrival in Malaysia","1","1","1");
+
+United Kingdom
+INSERT INTO info_country(countName,countRestrict,countQuarantin,countHDocument,countHDocumentAV,countHTesting,countMask)
+
+VALUES("United Kingdom","0","10","Mandatory passenger locator form","1","0","1");
+
+
+Canada
+INSERT INTO info_country(countName,countRestrict,countQuarantin,countHDocument,countHDocumentAV,countHTesting,countMask)
+
+VALUES("Canada","0","14","Mandatory proof of vaccination","1","1","1");
+
+
+(apply to Singapore, United Kingdom, Canada)
+
+Malaysia restrict information :- 
+-countName 	  = Malaysia
+-countRestrict    = 0 (Entry restricted for international travelers)
+-countQuarantin	  = 14 & testing
+-countHDocument	  = My Travel Pass is Require before arrival in Malaysia
+-countHDocumentAV = 1 (document proof negative COVID-19)
+-countHTesting	  = 0 (Test on the spot doesn't require )
+-countMask	  = 1
+
+
+Singapore restrict information :- 
+-countName 	  = Singapore 
+-countRestrict    = 0 (Entry restricted for international travelers)
+-countQuarantin	  = 14 & testing
+-countHDocument	  = Modatory health document is require
+-countHDocumentAV = 1 (document proof negative COVID-19)
+-countHTesting	  = 1 (Test on spot require)
+-countMask	  = 1
+
+
+United Kingdom restrict information :- 
+-countName 	  = United Kingdom
+-countRestrict    = 1 (Entery is allow with restrictions)
+-countQuarantin	  = 10 (for unvaccinated travelers)
+-countHDocument	  = Mandatory passenger locator form
+-countHDocumentAV = 1 (document proof negative COVID-19)
+-countHTesting	  = 0 (No require if vaccinated travelres)
+-countMask	  = 1
+
+
+Canada restrict information :-
+-countName 	  = Canada
+-countRestrict    = 0 (Entry restricted for international travelers)
+-countQuarantin	  = 14 & testing
+-countHDocument	  = Mandatory proof of vaccination
+-countHDocumentAV = 1 (document proof negative COVID-19)
+-countHTesting	  = 1 (Test on spot require)
+-countMask	  = 1
+
+
+Task dirve night:-
+
+- show booelan value inside the card (complete)
+- card name still remain (complete )
+
+(I want to see the result before doing anything )
+
+
+Hotel :-
+- Hotel Id
+- Hotel Image
+- Hotel Name
+- Hotel Address
+- Hotel State
+- Hotel Price
+- Hotel Available Room
+- Hotel Clean Level
+- Hotel Vaccination
+
+
+
+Hotel Room :-
+- Hotel Id
+- Hotel Type
+- hotel description
+
+
+form action = "URL Link" method : POST enctype= multipart/form-data
+
+enctype specifies how the form data sould be encoded
+
+Dani krossing:-
+Chapter 51 :- upload files
+
+
+
+
+
+
+
+
+
